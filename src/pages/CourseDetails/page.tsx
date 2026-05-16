@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 export default function CourseDetails() {
   return (
     <div>
-      {/* Hero */}
       <section className="bg-gradient-to-r from-[#1B5E20] to-[#2E7D32] py-16 px-5 text-center">
         <div>
           <h1 className="text-white text-4xl font-bold mb-2">📚 Our Courses</h1>
@@ -39,7 +38,7 @@ export default function CourseDetails() {
             </div>
             <div className="flex justify-between items-center p-4 border-t border-[#E8DDD0] mt-auto">
               <div className="text-2xl font-bold text-[#1B5E20]">₨ 4,999</div>
-              <Link to="/getstarted" className="bg-[#1B5E20] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E7D32] transition-all">Enroll</Link>
+              <Link to="/register" className="bg-[#1B5E20] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E7D32] transition-all">Enroll</Link>
             </div>
           </div>
 
@@ -69,7 +68,7 @@ export default function CourseDetails() {
             </div>
             <div className="flex justify-between items-center p-4 border-t border-[#E8DDD0] mt-auto">
               <div className="text-2xl font-bold text-[#1B5E20]">₨ 3,499</div>
-              <Link to="/getstarted" className="bg-[#1B5E20] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E7D32] transition-all">Enroll</Link>
+              <Link to="/register" className="bg-[#1B5E20] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E7D32] transition-all">Enroll</Link>
             </div>
           </div>
 
@@ -99,7 +98,7 @@ export default function CourseDetails() {
             </div>
             <div className="flex justify-between items-center p-4 border-t border-[#E8DDD0] mt-auto">
               <div className="text-2xl font-bold text-[#1B5E20]">₨ 5,999</div>
-              <Link to="/getstarted" className="bg-[#1B5E20] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E7D32] transition-all">Enroll</Link>
+              <Link to="/register" className="bg-[#1B5E20] text-white px-4 py-2 rounded-lg text-sm hover:bg-[#2E7D32] transition-all">Enroll</Link>
             </div>
           </div>
         </div>
