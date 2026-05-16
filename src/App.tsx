@@ -9,9 +9,7 @@ import AboutUs from "./pages/AboutUs/page";
 import Login from "./pages/Login/page";
 import Register from "./pages/Register/page";
 import CourseDetails from "./pages/CourseDetails/page";
-import Cart from "./pages/Cart/page";
-import Reviews from "./pages/Reviews/page";
-import Profile from "./pages/Profile/page";
+
 
 function Home() {
   return (
@@ -146,9 +144,7 @@ export default function App() {
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/courses" element={<CourseDetails />} />
-        <Route path="/cart" element={<Cart />} />
-        <Route path="/reviews" element={<Reviews />} />
-        <Route path="/profile" element={<Profile />} />
+  
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
       </Routes>

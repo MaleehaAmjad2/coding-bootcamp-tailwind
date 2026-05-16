@@ -40,9 +40,6 @@ export default function Navbar() {
           <li><Link to="/courses" className="text-white font-medium">Courses</Link></li>
           <li><Link to="/about" className="text-white font-medium">About</Link></li>
           <li><Link to="/dashboard" className="text-white font-medium">Dashboard</Link></li>
-          <li><Link to="/cart" className="text-white font-medium">Cart 🛒</Link></li>
-          <li><Link to="/reviews" className="text-white font-medium">Reviews</Link></li>
-          <li><Link to="/profile" className="text-white font-medium">Profile</Link></li>
           <li><Link to="/login" className="bg-[#2E7D32] text-white px-4 py-1 rounded-lg">Login</Link></li>
           <li><Link to="/register" className="bg-[#2E7D32] text-white px-4 py-1 rounded-lg ml-2">Sign Up</Link></li>
           <li>
