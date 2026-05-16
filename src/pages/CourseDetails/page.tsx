@@ -14,7 +14,10 @@ export default function CourseDetails() {
         <div className="flex flex-wrap justify-center gap-8">
           {/* Course 1: Web Development */}
           <div className="bg-white rounded-xl overflow-hidden shadow-md hover:-translate-y-2.5 hover:shadow-lg transition-all w-[320px] max-w-full flex flex-col">
-            <div className="text-5xl text-center pt-5 pb-2">🌐</div>
+            <div className="h-48 w-full overflow-hidden">
+              <img src="/images/course1.jpg" alt="Web Development" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-5xl text-center pt-2 pb-2">🌐</div>
             <h2 className="text-[#1B5E20] text-center text-2xl font-bold mb-2">Web Development</h2>
             <p className="text-center text-[#333] text-sm px-4 mb-4">HTML, CSS, JavaScript, React & Node.js</p>
             <div className="flex flex-wrap justify-center gap-2 px-4 mb-5">
@@ -44,7 +47,10 @@ export default function CourseDetails() {
 
           {/* Course 2: Python Programming */}
           <div className="bg-white rounded-xl overflow-hidden shadow-md hover:-translate-y-2.5 hover:shadow-lg transition-all w-[320px] max-w-full flex flex-col">
-            <div className="text-5xl text-center pt-5 pb-2">🐍</div>
+            <div className="h-48 w-full overflow-hidden">
+              <img src="/images/course2.jpg" alt="Python Programming" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-5xl text-center pt-2 pb-2">🐍</div>
             <h2 className="text-[#1B5E20] text-center text-2xl font-bold mb-2">Python Programming</h2>
             <p className="text-center text-[#333] text-sm px-4 mb-4">Data structures, OOP & real-world projects</p>
             <div className="flex flex-wrap justify-center gap-2 px-4 mb-5">
@@ -74,7 +80,10 @@ export default function CourseDetails() {
 
           {/* Course 3: Full Stack Development */}
           <div className="bg-white rounded-xl overflow-hidden shadow-md hover:-translate-y-2.5 hover:shadow-lg transition-all w-[320px] max-w-full flex flex-col">
-            <div className="text-5xl text-center pt-5 pb-2">⚛️</div>
+            <div className="h-48 w-full overflow-hidden">
+              <img src="/images/course3.jpg" alt="Full Stack Development" className="w-full h-full object-cover" />
+            </div>
+            <div className="text-5xl text-center pt-2 pb-2">⚛️</div>
             <h2 className="text-[#1B5E20] text-center text-2xl font-bold mb-2">Full Stack</h2>
             <p className="text-center text-[#333] text-sm px-4 mb-4">Frontend + Backend + Database Mastery</p>
             <div className="flex flex-wrap justify-center gap-2 px-4 mb-5">
